@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:///./data/links.sqlite3
+    volumes:
+      - link-data:/code/data
+
+volumes:
+  link-data:
