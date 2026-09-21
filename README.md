@@ -6,8 +6,8 @@ Open-source building blocks for WhatsApp **click-to-chat links**: a zero-depende
 core library, a web generator, a drop-in chat button, and a minimal short-link
 backend demo.
 
-**[Try the free online generator](https://walink.ai)** ·
-**[WALink Cloud](https://walink.ai)** ·
+**[Free online generator · English](https://walink.wadesk.io)** ·
+**[Generador en línea · Español](https://link.wadesk.io)** ·
 **[Docs & guide](./examples/fastapi-demo/README.md)**
 
 ---
@@ -65,8 +65,9 @@ docker compose up
 | Abuse protection & rate limiting | ❌ | ✅ |
 | Hosting, uptime & maintenance | Self-managed | ✅ Managed |
 
-Need advanced routing, analytics and zero-maintenance hosting? See
-**[WALink](https://walink.ai)**.
+Need advanced routing, analytics and zero-maintenance hosting? Try the
+**[WALink online generator · English](https://walink.wadesk.io)** or the
+**[Versión en español](https://link.wadesk.io)**.
 
 ## Development
 
