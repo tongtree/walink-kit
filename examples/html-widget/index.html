@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WALink Kit · Chat Widget Demo</title>
+    <style>
+      body { font-family: system-ui, sans-serif; padding: 40px; }
+    </style>
+  </head>
+  <body>
+    <h1>Drop-in WhatsApp chat button demo</h1>
+    <p>Edit the configuration at the bottom of this page, then copy the snippet into your site.</p>
+
+    <script>
+      window.waLinkWidget = {
+        phone: "15551234567",
+        message: "Hello, I have a question",
+        label: "Chat with us",
+        position: "right"
+      };
+    </script>
+    <script src="./widget.js" defer></script>
+  </body>
+</html>
