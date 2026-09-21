@@ -1,0 +1,21 @@
+{
+  "name": "walink-kit",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "pnpm -r --filter \"./packages/**\" test",
+    "build": "pnpm -r --filter \"./packages/**\" build",
+    "typecheck": "pnpm -r --filter \"./packages/**\" typecheck"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

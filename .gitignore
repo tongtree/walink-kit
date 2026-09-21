@@ -1,0 +1,12 @@
+﻿node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+*.sqlite
+*.sqlite3
