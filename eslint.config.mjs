@@ -15,5 +15,15 @@ export default tseslint.config(
     rules: {
       "@typescript-eslint/no-explicit-any": "off",
     },
+  },
+  {
+    files: ["**/html-widget/**/*.js"],
+    languageOptions: {
+      sourceType: "script",
+      globals: {
+        window: "readonly",
+        document: "readonly",
+      },
+    },
   }
 );
