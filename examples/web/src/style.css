@@ -1,0 +1,164 @@
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #f0f2f5;
+  color: #1f2c37;
+}
+
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px 64px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #128c7e;
+  background: #e6f4f1;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 14px 0 6px;
+}
+
+.sub {
+  color: #5b6b78;
+  margin: 0 0 28px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e3e8ec;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.05);
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 14px 0 6px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+select,
+input,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #cfd8df;
+  border-radius: 9px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+select {
+  width: 120px;
+  flex: none;
+}
+
+textarea {
+  min-height: 84px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 18px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 9px;
+  background: #25d366;
+  color: #073b24;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1fb855;
+}
+
+.error {
+  color: #c0392b;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.result {
+  margin-top: 22px;
+  padding-top: 22px;
+  border-top: 1px solid #eef1f4;
+}
+
+.link-box {
+  display: flex;
+  gap: 8px;
+}
+
+.link-box input {
+  flex: 1;
+  background: #f7f9fa;
+}
+
+.link-box button {
+  width: auto;
+  margin: 0;
+  padding: 10px 16px;
+  background: #128c7e;
+  color: #fff;
+}
+
+.qr {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.qr canvas {
+  border: 1px solid #e3e8ec;
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+}
+
+.qr button {
+  width: auto;
+  margin: 0;
+  background: #eef1f4;
+  color: #1f2c37;
+  padding: 9px 16px;
+}
+
+footer {
+  margin-top: 28px;
+  text-align: center;
+  font-size: 13px;
+  color: #5b6b78;
+}
+
+footer a {
+  color: #128c7e;
+  font-weight: 600;
+  text-decoration: none;
+}
