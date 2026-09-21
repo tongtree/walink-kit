@@ -46,5 +46,5 @@ pytest
 
 ## Want more?
 
-The hosted [WALink](https://walink.ai) adds link rotators, smart rules, QR
+The hosted [WALink online generator](https://walink.wadesk.io) adds link rotators, smart rules, QR
 codes, visitor analytics, dashboards and zero-maintenance hosting.

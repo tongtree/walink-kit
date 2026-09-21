@@ -97,8 +97,8 @@ const downloadQr = () => {
     </div>
 
     <footer>
-      Powered by <a href="https://walink.ai" target="_blank" rel="noopener">WALink</a> ·
-      <a href="https://walink.ai" target="_blank" rel="noopener">Try the full online generator</a>
+      Powered by <a href="https://walink.wadesk.io" target="_blank" rel="noopener">WALink</a> ·
+      <a href="https://link.wadesk.io" target="_blank" rel="noopener">Generador · Español / Português</a>
     </footer>
   </main>
 </template>

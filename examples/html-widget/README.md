@@ -21,4 +21,4 @@ A dependency-free floating chat button you can drop into any website.
 
 Open `index.html` to see a live demo.
 
-For a hosted, analytics-enabled chat widget see [WALink](https://walink.ai).
+For a hosted, analytics-enabled chat widget see the [WALink online generator](https://walink.wadesk.io).
